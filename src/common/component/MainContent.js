@@ -54,7 +54,7 @@ function MainContent(props) {
             </NavContainer>
 
             <HeaderContainer>
-                <Header currentMovie={videoQuery.data.results[0]} currentCategory='movie'/>
+                <Header currentMovie={videoQuery.data.results[1]} currentCategory='movie'/>
             </HeaderContainer>
 
             <MovieListContainer>
